@@ -1,0 +1,464 @@
+h1 {
+  color: rgb(212, 116, 52);
+  font-size: 50px;
+  font-family: var(Cambria);
+  /* font-style: italic; */
+  stroke: black;
+  /*margin: 5px;*/
+  padding-bottom: 50px;
+  padding-top: 3px;
+  margin-bottom: 50px;
+}
+
+li {
+  background-color: #2d4192;
+}
+
+.html {
+  background-color: #31333b;
+}
+
+body {
+  background-color: #31333b;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  /*margin-left: auto;
+  margin-right: auto*/
+  margin: 0 auto;
+  /*background-color: #aa693d;*/
+  animation-delay: initial;
+}
+
+.github1 {
+  cursor: pointer;
+  margin-right: 600px;
+  display: block;
+  border-radius: 20px;
+  border-color: #24a12e;
+}
+
+.Me {
+  background-color: #f1dec6;
+  color: #ff8343;
+  border: solid;
+  border-color: #000000;
+  font-style: initial;
+  font-family: serif;
+  transition: baground color 1s;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #179bae;
+  border-radius: 30px;
+}
+
+.Me:hover {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.Software {
+  color: #e49b13;
+  padding-bottom: 110px;
+  padding-top: 110px;
+  font-weight: bold;
+}
+
+.About {
+  padding-top: 400px;
+  padding-bottom: 10rem;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+  font-style: normal;
+  /*padding-bottom: 50px;
+  padding-top: 50px;*/
+}
+.myskills {
+  padding-bottom: 110px;
+  padding-top: 110px;
+}
+
+.Pictures {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 210px;
+  text-align: center;
+  color: #ff9100;
+}
+.AboutMe {
+  padding-bottom: 510px;
+  padding-top: 110px;
+}
+div {
+  font-size: 30px;
+  font-style: inherit;
+}
+h7 {
+  font-size: 30px;
+}
+
+.yahya {
+  position: absolute;
+  height: auto;
+  width: 800px;
+  cursor: grab;
+}
+
+.Picture {
+  margin-left: 50px;
+  position: absolute;
+  /*cursor: poiner;*/
+}
+.contact {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  border: 5px solid #357545;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  /*border-radius: 20px;*/
+}
+body {
+  text-align: left;
+}
+.video_creator_gaming_of_youtube {
+  font-size: 30px;
+  font-family: serif;
+  color: #000000;
+  text-align: center;
+}
+.designer_photoshop_and_filmora {
+  font-size: 30px;
+  font-family: serif;
+  color: #000000;
+}
+.programmer_for_html_and_css {
+  font-size: 30px;
+  font-family: serif;
+  color: #000000;
+}
+
+.date {
+  color: #1d180f;
+  font-family: sans-serif;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  background-color: #706e72;
+  border: 5px;
+  border-style: 10px;
+  border: 5px solid #8d7a39;
+  border-radius: 30px;
+}
+
+.experience {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 200px;
+}
+
+h3 {
+  background-color: #bb7813;
+}
+aside {
+  background-color: #7e9094;
+  border: 5px solid #24a12e;
+}
+.experience {
+  border: 5px solid #ff00004d;
+  padding-bottom: 10px;
+  margin-top: 100px;
+  color: #000000;
+}
+aside {
+  background-color: #878f8f;
+  border: 5px solid #22969e;
+  /*width: 1000px;*/
+}
+
+.ml-4 {
+  text-align: center;
+}
+
+.instagram {
+  transition: 1s;
+  background-color: #3D3E42;
+  border: 20px;
+  text-align: center;
+  display: block;
+  border: 4px solid;
+  border-radius: 10px;
+  border-color: #3D3E42;
+  color:#a29595;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+.instagram:hover {
+  background-color: #747574;
+  color: #000000;
+  box-shadow:#000000;
+}
+
+.email {
+  background-color: #3D3E42;
+  border: 20px;
+  text-align: center;
+  display: block;
+  border: 4px solid;
+  border-radius: 10px;
+  border-color: #3D3E42;
+  color:#a29595;
+  padding-bottom: 30px;
+  text-decoration: none;
+  transition: 1s
+}
+
+.email:hover {
+  background-color: #747574;
+  color: #000000;
+  box-shadow:#000000;
+}
+
+.tel {
+  transition: 1s;
+  background-color: #3D3E42;
+  border: 20px;
+  text-align: center;
+  display: block;
+  border: 4px solid;
+  border-radius: 10px;
+  border-color: #3D3E42;
+  color:#a29595;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+.tel:hover {
+  background-color: #747574;
+  color: #000000;
+  box-shadow:#000000;
+}
+
+.Demnat {
+  transition: 1s;
+  background-color: #3D3E42;
+  border: 20px;
+  text-align: center;
+  display: block;
+  border: 4px solid;
+  border-radius: 10px;
+  border-color: #3D3E42;
+  color:#a29595;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+.demnat:hover {
+  background-color: #747574;
+  color: #000000;
+  box-shadow:#000000;
+}
+
+.linkedin {
+  transition: 1s;
+  background-color: #3D3E42;
+  border: 20px;
+  text-align: center;
+  display: block;
+  border: 4px solid;
+  border-radius: 10px;
+  border-color: #3D3E42;
+  color:#a29595;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  background-color: #747574;
+  color: #000000;
+  box-shadow:#000000;
+}
+
+.github {
+  transition: 1s;
+  background-color: #3D3E42;
+  border: 20px;
+  text-align: center;
+  display: block;
+  border: 4px solid;
+  border-radius: 10px;
+  border-color: #3D3E42;
+  color:#a29595;
+  padding-bottom: 30px;
+  text-decoration: none;
+}
+
+.github:hover {
+  background-color: #747574;
+  color: #000000;
+  box-shadow:#000000;}
+
+.YT {
+  cursor: pointer;
+  padding-right: 200px;
+  display: inline-block;
+}
+
+.link {
+  color: #c2280d;
+  font-weight: bold;
+  text-decoration: underline dotted #e96812;
+}
+
+/*aside {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}*/
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.MyPictures-button {
+  padding: 5px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #d08580;
+  color: black;
+  border: 10px;
+  border-radius: 10px;
+  border-color: #22969e;
+  border: 20px;
+  border-color: #000000;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.MyPictures-button:hover {
+  background-color: #8a8383;
+  border-color: #000000;
+  box-shadow: 10px 10px 10px #000000;
+  transform: scale(0.92);
+}
+
+.MyPictures-button:active {
+  transform: scale(0.99);
+}
+
+.AboutMe-button {
+  padding: 10px;
+  /*background-color: rgb(158, 136, 13);*/
+  /* background-color: rgb(158, 136, 13);*/
+  color: rgb(212, 206, 206);
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  font-size: 26px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-right: 20px;
+  text-decoration: none;
+  /*border-style: groove;*/
+}
+
+.AboutMe-button:hover {
+/*background-color: rgba(212, 157, 30, 0.333);*/  
+color: #000000;
+  /*box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);*/
+}
+
+.MySkills-button {
+  padding: 10px;
+  /*background-color: #747272;*/
+  border-color: black;
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  font-size: 26px;
+  color: rgb(212, 206, 206);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  text-decoration: none;
+}
+
+.MySkills-button:hover {
+ 
+  color: #000000;
+ 
+}
+
+.ContactMe-button {
+  padding: 10px;
+  /*background-color: #747272;*/
+  border-color: rgb(0, 0, 0);
+  border: none;
+  height: 70px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 22px;
+  transition: 0.5s;
+  color: rgb(212, 206, 206);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+.ContactMe-button:hover {
+  color: #000000;
+  
+}
+
+.thanks {
+  text-align: center;
+  font-size: 40px;
+  color: #e96812;
+  font-family: DM Serif Display, Georgia, ui-serif;
+}
+
+.AboutMe::after {
+  content: "yahya";
+  background-color: #24a12e;
+  text-align: center;
+  bottom: 20px;
+}
+
+.myskills {
+  text-align: center;
+}
+
+.designer_photoshop_and_filmora {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.link {
+  text-align: center;
+  display: block;
+}
+
+.programmer_for_html_and_css {
+  text-align: center;
+}
+
+/*.Software {
+  padding: 20px;
+  /*padding-left: 40px;
+  padding-right: 40px;
+}*/

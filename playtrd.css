@@ -1,0 +1,23 @@
+.container {
+  width: 800px;
+  /*margin-left: auto;
+    margin-right: auto*/
+  margin: 0 auto;
+  /*background-color: #aa693d;*/
+  animation-delay: initial;
+}
+.playtrd {
+  margin-left: 1000px;
+  display: block;
+}
+
+.Welcom {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+}
+
+.games {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-top: 60px;
+}

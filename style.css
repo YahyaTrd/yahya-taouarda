@@ -26,7 +26,7 @@ body::-webkit-scrollbar-track-piece {
   background-color: #179bae;
 }
 .container {
-  max-width: 1000px;
+  max-width: max-content;
   /*margin-left: auto;
   margin-right: auto*/
   margin: 0 auto;
@@ -37,7 +37,7 @@ body::-webkit-scrollbar-track-piece {
 .AboutMe-button {
   padding: 10px;
   background-color: black;
-  color: #D0D0D2;
+  color: #d0d0d2;
   border: none;
   height: 50px;
   width: 100px;
@@ -46,16 +46,16 @@ body::-webkit-scrollbar-track-piece {
   margin-bottom: 10px;
   transition: 0.5s;
   font-size: 26px;
-  font-family:monospace;
+  font-family: monospace;
   padding-right: 20px;
   text-decoration: none;
   /*border-style: groove;*/
 }
 
 .AboutMe-button:hover {
-background-color: rgba(145, 110, 29, 0.333);  
-color: #000000;
-box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  background-color: rgba(145, 110, 29, 0.333);
+  color: #000000;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 .AboutMe-button:active {
@@ -74,14 +74,14 @@ box-shadow: 10px 10px 10px rgb(0, 0, 0);
   margin-bottom: 10px;
   transition: 0.5s;
   font-size: 26px;
-  color: #D0D0D2;
-  font-family:monospace;
+  color: #d0d0d2;
+  font-family: monospace;
   position: relative;
   text-decoration: none;
 }
 
 .MySkills-button:hover {
-background-color: rgba(145, 110, 29, 0.333); 
+  background-color: rgba(145, 110, 29, 0.333);
   color: #000000;
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
@@ -98,15 +98,15 @@ background-color: rgba(145, 110, 29, 0.333);
   margin-bottom: 10px;
   font-size: 22px;
   transition: 0.5s;
-  color: #D0D0D2;
-  font-family:monospace;
+  color: #d0d0d2;
+  font-family: monospace;
   text-decoration: none;
 }
 
 .ContactMe-button:hover {
-  color:black;
-background-color:rgba(145, 110, 29, 0.333); 
-box-shadow: 10px 10px 10px rgb(0, 0, 0); 
+  color: black;
+  background-color: rgba(145, 110, 29, 0.333);
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 .github1 {
@@ -222,21 +222,21 @@ summary {
   cursor: pointer;
   text-align: center;
   color: #000000;
-  font-family:'Times New Roman', Times, serif
+  font-family: "Times New Roman", Times, serif;
 }
 .skills {
   display: inline-flexbox;
   font-size: 30px;
   color: #000000;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .Css {
   display: block;
   color: #000000;
   font-size: 30px;
   text-align: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .html-and-css {
@@ -246,7 +246,8 @@ summary {
 
 .date {
   color: #1273ce;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   border: 5px solid rgb(93, 96, 85);
   border-radius: 10px;
 }
@@ -287,14 +288,14 @@ aside {
 
 .instagram {
   transition: 1s;
-  background-color: #3D3E42;
+  background-color: #3d3e42;
   border: 20px;
   text-align: center;
   display: block;
   border: 4px solid;
   border-radius: 20px;
-  border-color: #3D3E42;
-  color:#a29595;
+  border-color: #3d3e42;
+  color: #a29595;
   padding-bottom: 30px;
   text-decoration: none;
 }
@@ -302,39 +303,39 @@ aside {
 .instagram:hover {
   background-color: #747574;
   color: #000000;
-  box-shadow:#000000;
+  box-shadow: #000000;
 }
 
 .email {
-  background-color: #3D3E42;
+  background-color: #3d3e42;
   border: 20px;
   text-align: center;
   display: block;
   border: 4px solid;
   border-radius: 20px;
-  border-color: #3D3E42;
-  color:#a29595;
+  border-color: #3d3e42;
+  color: #a29595;
   padding-bottom: 30px;
   text-decoration: none;
-  transition: 1s
+  transition: 1s;
 }
 
 .email:hover {
   background-color: #747574;
   color: #000000;
-  box-shadow:#000000;
+  box-shadow: #000000;
 }
 
 .tel {
   transition: 1s;
-  background-color: #3D3E42;
+  background-color: #3d3e42;
   border: 20px;
   text-align: center;
   display: block;
   border: 4px solid;
   border-radius: 20px;
-  border-color: #3D3E42;
-  color:#a29595;
+  border-color: #3d3e42;
+  color: #a29595;
   padding-bottom: 30px;
   text-decoration: none;
 }
@@ -342,19 +343,19 @@ aside {
 .tel:hover {
   background-color: #747574;
   color: #000000;
-  box-shadow:#000000;
+  box-shadow: #000000;
 }
 
 .Demnat {
   transition: 1s;
-  background-color: #3D3E42;
+  background-color: #3d3e42;
   border: 20px;
   text-align: center;
   display: block;
   border: 4px solid;
   border-radius: 20px;
-  border-color: #3D3E42;
-  color:#a29595;
+  border-color: #3d3e42;
+  color: #a29595;
   padding-bottom: 30px;
   text-decoration: none;
 }
@@ -362,19 +363,19 @@ aside {
 .demnat:hover {
   background-color: #747574;
   color: #000000;
-  box-shadow:#000000;
+  box-shadow: #000000;
 }
 
 .linkedin {
   transition: 1s;
-  background-color: #3D3E42;
+  background-color: #3d3e42;
   border: 20px;
   text-align: center;
   display: block;
   border: 4px solid;
   border-radius: 20px;
-  border-color: #3D3E42;
-  color:#a29595;
+  border-color: #3d3e42;
+  color: #a29595;
   padding-bottom: 30px;
   text-decoration: none;
 }
@@ -382,19 +383,19 @@ aside {
 .linkedin:hover {
   background-color: #747574;
   color: #000000;
-  box-shadow:#000000;
+  box-shadow: #000000;
 }
 
 .github {
   transition: 1s;
-  background-color: #3D3E42;
+  background-color: #3d3e42;
   border: 20px;
   text-align: center;
   display: block;
   border: 4px solid;
   border-radius: 20px;
-  border-color: #3D3E42;
-  color:#a29595;
+  border-color: #3d3e42;
+  color: #a29595;
   padding-bottom: 30px;
   text-decoration: none;
 }
@@ -402,7 +403,8 @@ aside {
 .github:hover {
   background-color: #747574;
   color: #000000;
-  box-shadow:#000000;}
+  box-shadow: #000000;
+}
 
 .YT {
   cursor: pointer;
@@ -453,7 +455,6 @@ aside {
 .MyPictures-button:active {
   transform: scale(0.92);
 }
-
 
 .thanks {
   text-align: center;
